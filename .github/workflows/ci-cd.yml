@@ -34,6 +34,9 @@ jobs:
       - name: Listing file and Dir.
         run: ls -lrt
 
+      - name: df -h command
+        run: df -h
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
