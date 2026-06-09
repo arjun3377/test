@@ -29,6 +29,9 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
+      - name: Listing file and Dir.
+        run: ls -lrt
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
